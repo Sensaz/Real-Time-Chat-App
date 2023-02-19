@@ -28,7 +28,7 @@ const Auth = () => {
 
     const { username, password, phoneNumber, avatarURL } = form;
 
-    const URL = "https://localhost:5000/auth";
+    const URL = "http://192.168.100.49:5000/auth";
     // const URL = 'https://medical-pager.herokuapp.com/auth';
 
     const {
